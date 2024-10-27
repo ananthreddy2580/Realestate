@@ -3,20 +3,15 @@ function ContactData(){
         <>
         <div className="cn12">
             <div className="cn11">
-            <h1 id="contact1">
                 If you have any queries Please Contact.
-            </h1>
             </div>
             <div className="brs">
                 
                 </div>
             <div className="cn13">
-                <p id="contact2">
-                    Name   : Mohan Reddy
+                    Mohan Reddy
                     <br></br>
-                    <br></br>
-                    Number : 6303377903
-                </p>
+                    6303377903
             </div>
         </div>
             

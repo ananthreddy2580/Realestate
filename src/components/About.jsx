@@ -23,7 +23,7 @@ function About(){
                 <div className="aboutImageContainer">
                     <img className='aboutImage1' src={about}></img>
                     <div className="images">
-                        {/* <img className='aboutImage2' src={about1}></img> */}
+                        <img className='aboutImage2' src={about1}></img>
                         <img className='aboutImage3' src={about}></img>
                         <img className='aboutImage4' src={about1}></img>
                         <img className='aboutImage5' src={about}></img>
@@ -31,7 +31,6 @@ function About(){
                 </div>
                 <div className="aboutData3Container">
                     <div className="aboutText1">
-                        <img className='aboutImage2' src={about1}></img>
                         Founded in 2022, <strong>Pradeep Groups</strong> has swiftly established itself as a formidable player in the Hyderabad real estate market. Under the visionary leadership of Mr. Pradeep, the company has made an incredible mark, consistently delivering high-quality residential and commercial properties.
                     </div>
                     <div className="aboutText2">

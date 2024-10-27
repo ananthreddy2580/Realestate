@@ -92,25 +92,24 @@ export function Home1() {
                 <div className='textContainer'>
                     <div className="textCategoryContainer">
                     <div className={`text-item ${activeText === 'text1' ? 'show' : 'hide'}`} id="text1">
-                        Welcome to <strong>PRADEEP GROUPS</strong> where we turn your dreams of the perfect home into reality. Our expertise lies in offering premium real estate options combined with bespoke woodwork solutions that cater to your unique preferences and needs.  we believe that your home is more than just a place—it's a reflection of who you are and where you want to be. We are passionate about transforming your dreams of the perfect living space into a tangible reality. With a commitment to excellence, our team specializes in delivering premium real estate solutions and exceptional custom woodwork services that align with your unique tastes and lifestyle.
-                        our dedication to exceptional service and meticulous attention to detail.
+                        Welcome to <strong>PRADEEP GROUPS</strong> where we turn your dreams of the perfect home into reality. Our expertise lies in offering premium real estate options combined with bespoke woodwork solutions that cater to your unique preferences and needs.  we believe that your home is more than just a place—it's a reflection of who you are and where you want to be. We are passionate about transforming your dreams of the perfect living space into a tangible reality. With a commitment to excellence.
+                        
 {/* Join us on a journey to find and create a home that truly embodies your vision. Welcome to a world where your ideal living space comes to life, crafted with expertise and tailored to your every desire. */}
                     </div>
                     <div className={`text-item ${activeText === 'text2' ? 'show' : 'hide'}`} id="text2">
-                        Welcome to PRADEEP GROUPS  where we turn your dreams of the perfect home into reality. Our expertise lies in offering premium real estate options combined with bespoke woodwork solutions that cater to your unique preferences and needs.  we believe that your home is more than just a place—it's a reflection of who you are and where you want to be. We are passionate about transforming your dreams of the perfect living space into a tangible reality. With a commitment to excellence, our team specializes in delivering premium real estate solutions and exceptional custom woodwork services that align with your unique tastes and lifestyle.
-                        our dedication to exceptional service and meticulous attention to detail.
+                        Welcome to PRADEEP GROUPS  where we turn your dreams of the perfect home into reality. Our expertise lies in offering premium real estate options combined with bespoke woodwork solutions that cater to your unique preferences and needs.  we believe that your home is more than just a place—it's a reflection of who you are and where you want to be. We are passionate about transforming your dreams of the perfect living space into a tangible reality. With a commitment to excellence.
+                        
                     </div>
                     <div className={`text-item ${activeText === 'text3' ? 'show' : 'hide'}`} id="text3">
-                        Welcome to PRADEEP GROUPS  where we turn your dreams of the perfect home into reality. Our expertise lies in offering premium real estate options combined with bespoke woodwork solutions that cater to your unique preferences and needs.  we believe that your home is more than just a place—it's a reflection of who you are and where you want to be. We are passionate about transforming your dreams of the perfect living space into a tangible reality. With a commitment to excellence, our team specializes in delivering premium real estate solutions and exceptional custom woodwork services that align with your unique tastes and lifestyle.
-                        our dedication to exceptional service and meticulous attention to detail.
+                        Welcome to PRADEEP GROUPS  where we turn your dreams of the perfect home into reality. Our expertise lies in offering premium real estate options combined with bespoke woodwork solutions that cater to your unique preferences and needs.  we believe that your home is more than just a place—it's a reflection of who you are and where you want to be. We are passionate about transforming your dreams of the perfect living space into a tangible reality. With a commitment to excellence.                        
                     </div>
                     <div className={`text-item ${activeText === 'text4' ? 'show' : 'hide'}`} id="text4">
-                        Welcome to PRADEEP GROUPS  where we turn your dreams of the perfect home into reality. Our expertise lies in offering premium real estate options combined with bespoke woodwork solutions that cater to your unique preferences and needs.  we believe that your home is more than just a place—it's a reflection of who you are and where you want to be. We are passionate about transforming your dreams of the perfect living space into a tangible reality. With a commitment to excellence, our team specializes in delivering premium real estate solutions and exceptional custom woodwork services that align with your unique tastes and lifestyle.
-                        our dedication to exceptional service and meticulous attention to detail.
+                        Welcome to PRADEEP GROUPS  where we turn your dreams of the perfect home into reality. Our expertise lies in offering premium real estate options combined with bespoke woodwork solutions that cater to your unique preferences and needs.  we believe that your home is more than just a place—it's a reflection of who you are and where you want to be. We are passionate about transforming your dreams of the perfect living space into a tangible reality. With a commitment to excellence.
+                       
                     </div>
                     <div className={`text-item ${activeText === 'text5' ? 'show' : 'hide'}`} id="text5">
-                        Welcome to PRADEEP GROUPS  where we turn your dreams of the perfect home into reality. Our expertise lies in offering premium real estate options combined with bespoke woodwork solutions that cater to your unique preferences and needs.  we believe that your home is more than just a place—it's a reflection of who you are and where you want to be. We are passionate about transforming your dreams of the perfect living space into a tangible reality. With a commitment to excellence, our team specializes in delivering premium real estate solutions and exceptional custom woodwork services that align with your unique tastes and lifestyle.
-                        our dedication to exceptional service and meticulous attention to detail.
+                        Welcome to PRADEEP GROUPS  where we turn your dreams of the perfect home into reality. Our expertise lies in offering premium real estate options combined with bespoke woodwork solutions that cater to your unique preferences and needs.  we believe that your home is more than just a place—it's a reflection of who you are and where you want to be. We are passionate about transforming your dreams of the perfect living space into a tangible reality. With a commitment to excellence.
+                        
                     </div>
 
                     <div className="button-container">
@@ -138,6 +137,8 @@ export function Home1() {
                 </div>
                 </div>
                 </div>
+                <br></br><br></br><br></br>
+                <br></br><br></br>
             </div>
         </div>
     );
