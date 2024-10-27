@@ -7,14 +7,9 @@ function ContactData(){
                 If you have any queries Please Contact.
             </h1>
             </div>
-            <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
+            <div className="brs">
+                
+                </div>
             <div className="cn13">
                 <p id="contact2">
                     Name   : Mohan Reddy
