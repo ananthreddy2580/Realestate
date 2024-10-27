@@ -1,0 +1,378 @@
+
+/* contact page CSS starts from here */
+
+.reqField::after {
+    content: " *";
+    color: red; /* Change color to indicate required field */
+  }
+
+.fullContainerForm{
+    text-align: center;     
+    max-width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    background-color: rgb(212, 214, 209);
+    margin-top: 5%;
+    padding: 4%;
+    border-radius: 2%;
+    box-shadow: 5px 5px 2px rgb(69, 67, 67);
+    font-family:serif;
+}
+.head1{
+    text-align: left;
+    margin-bottom: 2%;
+}
+.label1,.label2,.label3{
+    text-align: left;
+    font-size: 120%;
+    margin-bottom: 2%;
+    font-family:serif;
+}
+#fname,#lname{
+    width: 48%;
+    height: 30px;
+    font-size: 90%;
+    background-color: rgb(239, 240, 236);
+    border: 0.01px solid black;
+}
+#fname{
+    margin-right: 4%;
+}
+#email{
+    width: 100%;
+    height: 30px;
+    font-size: 90%;
+    background-color: rgb(239, 240, 236);
+    border: 0.01px solid black;
+}
+#message{
+    width: 100%;
+    font-size: 100%;
+    background-color: rgb(239, 240, 236);
+    border: 0.01px solid black;
+}
+textarea {
+    resize: none;
+}
+.label11{
+    margin-bottom: -3%;
+}
+.placeHolders{
+    margin-top: 1%;
+}
+#submitForm{
+    width: 20%;
+    font-size:large;
+    background-color: rgb(15, 16, 16);
+    border: 0.01px solid black;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    font-family:serif;
+}
+.sp1{
+    margin-right: 35%;
+}
+.ErrorMsg{
+    color: red;
+    display: none;
+}
+
+
+
+/* Custom Toast Styling */
+.Toastify__toast {
+    width: 30%;
+    font-weight: bold; /* Bold text */
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.2);
+    position: fixed;  /* Ensure the toast is fixed in place */
+    z-index: 9999;    /* Make sure it's on top of other elements */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 2.0s ease-in-out;
+    top: 30px; /* Position from the top */
+    left: 35%; /* Move to the center horizontally */
+}
+
+
+/* contact page CSS Ends here */
+
+
+
+/*  About desktop view CSS Starts From Here */
+
+.aboutDescHead{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.aboutDesc{
+    max-width: 60rem;
+    text-align: justify;
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+.aboutHistoryHead{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.aboutData2Container{
+    display: flex;
+    width: 100%;
+    padding: 1rem 3rem 1rem 3rem;
+   
+}
+.aboutImageContainer{
+    max-width: 50%;
+    margin-right: 2rem;
+}
+.aboutImage1{
+    max-width: 100%;
+    height: 100%;
+}
+.aboutData3Container{
+    max-width: 50%;
+    margin-right: -20rem;
+   
+}
+.aboutText1,.aboutText2,.aboutText3,.aboutText4{
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+.aboutText5{
+    width: 100%;
+    text-align: justify;
+}
+.aboutLastContainer{
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+.images{
+    display: none;
+}
+
+/*  About desktop CSS ends Here */
+
+/*  About  mobile view CSS starts Here */
+
+@media screen and (max-width:932px) {
+    
+.aboutDescHead{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    text-align: left;
+    font-size: 1.2rem;
+}
+.aboutDesc{
+    max-width: 60rem;
+    text-align: justify;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.aboutHistoryHead{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    text-align: left;
+    font-size: 1.2rem;
+}
+.aboutData2Container{
+    display: flex;
+    width: 90%;
+    padding: 0rem 1rem 0rem 1rem;
+}
+.aboutImageContainer{
+    max-width: 40%;
+    margin-right: 1rem;
+    
+}
+.aboutImage1{
+    max-width: 100%;
+    height: 15%;
+    margin-bottom: 2rem;
+}
+.aboutImage2{
+    max-width: 100%;
+    height: 12rem;
+    margin-bottom: 2rem;
+}
+.aboutImage3{
+    max-width: 100%;
+    height: 13.1rem;
+    margin-bottom: 2rem;
+}
+.aboutImage4{
+    max-width: 100%;
+    height: 10.2rem;
+    margin-bottom: 2rem;
+}
+.aboutImage5{
+    max-width: 100%;
+    height: 12rem;
+}
+.aboutData3Container{
+    max-width: 68%;
+}
+.aboutText1,.aboutText2,.aboutText3,.aboutText4{
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+.aboutText5{
+    width: 100%;
+    text-align: justify;
+}
+.aboutLastContainer{
+    padding: 1rem;
+    font-size: 1.1rem;
+    text-align: left;
+    font-weight: bold;
+}
+.images{
+    display: block;
+}
+}
+
+
+/* Projects web view css */
+
+
+.project1,.project2,.project3{
+    padding: 2%;
+    margin-top: 4%;
+}
+p{
+    text-align: justify;
+    margin-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.p1{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    margin-top: 2%;
+    padding-left: 5%;
+}
+.projectImage1{
+    width: 20%;
+    height: 20%;
+}
+
+/* Projects mobile view css */
+
+@media screen and (max-width: 932px) {
+    .p1{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        margin-top: 2%;
+        padding-left: 0%;
+    }
+    .projectImage1{
+        margin-top: 5%;
+    }
+    p{
+        text-align: justify;
+        margin-top: -20%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+
+
+/* gallery web view css */
+
+.photoContainer1{
+    display: flex;
+    max-width: 100%;
+    gap: 10%;
+    padding: 20px;
+    padding-top: 5%;
+    padding-left: 15%;
+    overflow: hidden;
+}
+.projectImage1{
+    width: 20%;
+    height: 20%;
+    border: 5px solid #ccc;     /* Add a border around the images */
+    border-radius: 5px;         /* Optional: round the corners of the border */
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.photoContainer1 .projectImage1:hover {
+    transform: scale(1.1);     /* Scale image to 110% on hover */
+}
+.headgallery{
+    margin: 2% 0% 0% 5%;
+}
+
+/* Gallery mobile view */
+
+
+@media screen and (max-width: 932px) {
+    .photoContainer1{
+        display: flex;
+        max-width: 100%;
+        gap: 10%;
+        padding: 10%;
+        padding-right: 15%;
+        overflow: hidden;
+    }
+    
+    .projectImage1{
+        width: 50%;
+        height: 50%;
+        border: 5px solid #ccc;     /* Add a border around the images */
+        border-radius: 5px;         /* Optional: round the corners of the border */
+        transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+    .photoContainer1 .projectImage1:hover {
+        transform: scale(1.1);     /* Scale image to 110% on hover */
+    }
+    #hide1{
+        display: none;
+    }
+
+    .headgallery{
+        margin: 10%;
+    }
+    
+}
+
+
+
+/* contact web view */
+
+    
+.cn12{
+    margin: 5%;
+}
+
+
+/* contact mobile view */
+
+@media screen and (max-width: 932px) {
+
+    .cn12{
+        text-align: justify;
+        margin: 5%;
+        margin-top: 10%;
+    }
+    .cn13{
+        padding-top: 20%;
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
