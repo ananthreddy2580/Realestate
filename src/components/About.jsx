@@ -11,10 +11,9 @@ function About(){
         <div className="aboutContainer">
             <div className="aboutData1Container">
                 <h1 className="aboutDescHead">WHO WE ARE</h1>
-                <br></br><br></br>
-            <br></br>
-            <br></br><br></br>
-            <br></br>
+                <div className="brs">
+                
+            </div>
                 <p className="aboutDesc"> 
                     Founded in 2022, DreamHomes emerged with a vision to revolutionize the real estate market by prioritizing clients' needs above all else. With over two years of experience in the industry, we have successfully assisted numerous clients in finding their dream homes across key cities like Hyderabad and Bangalore. Our dedicated team of licensed professionals leverages local market expertise and cutting-edge technology to deliver tailored solutions for every individual client. At DreamHomes, we believe that every client deserves a seamless and personalized experience, and we are committed to turning that belief into reality.
                 </p>
