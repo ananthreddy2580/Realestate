@@ -366,7 +366,7 @@ p{
 @media screen and (max-width: 932px) {
 
     .cn12{
-        width: 100%;
+        width: 90%;
         height: 100%;
         text-align: justify;
         margin: 5%;
@@ -376,7 +376,7 @@ p{
         padding: 5px;
     }
     .cn13{
-        width: 100%;
+        width: 90%;
         height: 50%;
         margin-top: 20%;
         font-size: 25px;
